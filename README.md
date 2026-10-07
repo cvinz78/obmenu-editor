@@ -21,6 +21,19 @@
   <img src="screenshots/screenshot_dark.png" alt="Obmenu-Editor Screenshot (Darkmode)" width="700" />
 </p>
 
+<p align="center">
+  <b>Drei Themes:</b>&nbsp; Creamy · Darkmode · BlueMoon
+</p>
+<p align="center">
+  <img src="screenshots/screenshot_creamy.png" alt="Creamy Theme" width="32%" />
+  <img src="screenshots/screenshot_dark.png" alt="Darkmode Theme" width="32%" />
+  <img src="screenshots/screenshot_bluemoon.png" alt="BlueMoon Theme" width="32%" />
+</p>
+<p align="center">
+  <img src="screenshots/screenshot_dialog.png" alt="Bearbeiten-Dialog" width="350" /><br>
+  <small><i>Bearbeiten-Dialog / Edit dialog</i></small>
+</p>
+
 ---
 
 ## Deutsch

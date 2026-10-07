@@ -60,14 +60,16 @@
 
 ### Voraussetzungen
 
+> **⚠️ Wichtig:** Wenn du die **fertig gebaute Binärdatei** `obmenu` ausführst, musst du **nichts installieren** — Python und PyQt6 sind bereits einkompiliert. Die Tabelle unten gilt **nur**, wenn du das Tool aus dem Quellcode starten oder selbst bauen möchtest. `xmllint` ist selbst dann optional und wird nur für die XML-Validierung im Werkzeuge-Menü benötigt; Openbox hast du als Nutzer dieses Editors ohnehin installiert.
+
 | Paket | Zweck |
 |---|---|
 | Python 3 | Laufzeitumgebung |
 | PyQt6 | Grafische Oberfläche |
-| `xmllint` (libxml2) | XML-Validierung (Werkzeuge-Menü) |
+| `xmllint` (libxml2) | XML-Validierung (Werkzeuge-Menü, optional) |
 | Openbox | Window Manager, dessen Menü bearbeitet wird |
 
-**Arch Linux:**
+**Arch Linux (nur für Quellcode/Selbstbau):**
 
 ```bash
 sudo pacman -S --needed base-devel libxml2 python
@@ -169,14 +171,16 @@ Copyright (C) 2026 [cvinz78](https://github.com/cvinz78)
 
 ### Requirements
 
+> **⚠️ Important:** If you run the **prebuilt binary** `obmenu`, you do **not** need to install anything — Python and PyQt6 are already compiled into it. The table below applies **only** if you want to run the tool from source or build it yourself. Even then, `xmllint` is optional and only needed for the XML validation in the Tools menu; as a user of this editor you have Openbox installed anyway.
+
 | Package | Purpose |
 |---|---|
 | Python 3 | Runtime |
 | PyQt6 | Graphical interface |
-| `xmllint` (libxml2) | XML validation (Tools menu) |
+| `xmllint` (libxml2) | XML validation (Tools menu, optional) |
 | Openbox | Window manager whose menu you edit |
 
-**Arch Linux:**
+**Arch Linux (only for running from source / building):**
 
 ```bash
 sudo pacman -S --needed base-devel libxml2 python

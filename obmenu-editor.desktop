@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Obmenu-Editor
+GenericName=Openbox Menu Editor
+Comment=Graphical editor for the Openbox menu.xml
+Comment[de]=Grafischer Editor für die Openbox menu.xml
+Exec=obmenu
+TryExec=obmenu
+Icon=openbox
+Categories=Settings;DesktopSettings;System;
+Keywords=openbox;menu;editor;xml;
+Terminal=false
+StartupNotify=false

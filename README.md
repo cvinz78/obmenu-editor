@@ -120,11 +120,21 @@ python -m venv nuitka-env
 
 > Während des Builds können Warnungen wie `Nuitka-Scons:WARNING: You are not using ccache …` erscheinen. Diese sind harmlos – mit installiertem `ccache` (siehe Schritt 1) verschwinden sie und Folge-Builds werden schneller.
 
-### Installation der Binärdatei
+### Download & Installation der Binärdatei
+
+Die fertige Binärdatei (Linux x86_64) gibt es im aktuellen Release – **ohne Installation von Abhängigkeiten**:
+
+**[⬇️ Obmenu-Editor v1.0.0 herunterladen](https://github.com/cvinz78/obmenu-editor/releases/latest)**
 
 ```bash
 chmod +x obmenu
 sudo install -Dm755 obmenu /usr/local/bin/obmenu
+```
+
+Die Prüfsumme liegt als `obmenu.sha256` im Release bei und lässt sich so verifizieren:
+
+```bash
+sha256sum -c obmenu.sha256
 ```
 
 Optional: Ein Eintrag im Anwendungsmenü (`obmenu-editor.desktop` in diesem Repo) kann nach `~/.local/share/applications/` kopiert werden.
@@ -231,11 +241,21 @@ python -m venv nuitka-env
 
 > During the build you may see warnings such as `Nuitka-Scons:WARNING: You are not using ccache …`. They are harmless – with `ccache` installed (see step 1) they disappear and subsequent builds get faster.
 
-### Installing the binary
+### Download & installing the binary
+
+The prebuilt binary (Linux x86_64) is available in the latest release – **no dependencies to install**:
+
+**[⬇️ Download Obmenu-Editor v1.0.0](https://github.com/cvinz78/obmenu-editor/releases/latest)**
 
 ```bash
 chmod +x obmenu
 sudo install -Dm755 obmenu /usr/local/bin/obmenu
+```
+
+The checksum is included in the release as `obmenu.sha256` and can be verified with:
+
+```bash
+sha256sum -c obmenu.sha256
 ```
 
 Optionally, copy the desktop entry (`obmenu-editor.desktop` from this repo) to `~/.local/share/applications/` to get a launcher in your application menu.
